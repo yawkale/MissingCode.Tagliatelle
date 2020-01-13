@@ -1,0 +1,7 @@
+﻿<section class="control" ng-controller="Tagliatelle.PropertyEditors.tagliatelleDoctypeSelector">
+
+    <select ng-model="model.value">
+        <option ng-repeat="type in documentTypes" value="{{type.Alias}}" ng-selected="model.value == type.Alias">{{type.Name}}</option>
+    </select>
+
+</section>
